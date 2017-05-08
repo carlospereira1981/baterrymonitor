@@ -12,6 +12,7 @@
 		7B1D63B11EA2B78C00AA7772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D63AF1EA2B78C00AA7772 /* Main.storyboard */; };
 		7B1D63B31EA2B78C00AA7772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D63B21EA2B78C00AA7772 /* Assets.xcassets */; };
 		7B1D63B61EA2B78C00AA7772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B1D63B41EA2B78C00AA7772 /* LaunchScreen.storyboard */; };
+		7B5E12721EB4FEFA00B5CFD3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E12711EB4FEFA00B5CFD3 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7B1D63B21EA2B78C00AA7772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BatteryMonitor/Assets.xcassets; sourceTree = "<group>"; };
 		7B1D63B51EA2B78C00AA7772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1D63B71EA2B78C00AA7772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = BatteryMonitor/Info.plist; sourceTree = "<group>"; };
+		7B5E12711EB4FEFA00B5CFD3 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = ../UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7B1D63AD1EA2B78C00AA7772 /* ViewController.swift */,
 				7B1D63AF1EA2B78C00AA7772 /* Main.storyboard */,
+				7B5E12711EB4FEFA00B5CFD3 /* UIView.swift */,
 				7B1D63BD1EA2B7B300AA7772 /* SupportingFiles */,
 			);
 			path = BatteryMonitor;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B1D63AE1EA2B78C00AA7772 /* ViewController.swift in Sources */,
+				7B5E12721EB4FEFA00B5CFD3 /* UIView.swift in Sources */,
 				7B1D63AC1EA2B78C00AA7772 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +318,7 @@
 				7B1D63BC1EA2B78C00AA7772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

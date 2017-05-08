@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nivel da Bateria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukI-GJ-MgP">
-                                <rect key="frame" x="64.5" y="28" width="234.5" height="41"/>
+                                <rect key="frame" x="64" y="28" width="235" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,7 +40,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Minutos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krU-ZU-G4V">
-                                <rect key="frame" x="122" y="169" width="131.5" height="36"/>
+                                <rect key="frame" x="122" y="169" width="132" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tempo Medio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWu-An-kIM">
+                                <rect key="frame" x="98" y="299" width="181" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tempo do ultimo 1%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcK-PL-SjJ">
+                                <rect key="frame" x="59" y="213" width="257" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculando" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMN-Xl-HMU">
+                                <rect key="frame" x="115" y="256" width="145" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Calculando" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3A6-de-DfO">
+                                <rect key="frame" x="114" y="343" width="150" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,18 +73,29 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="h29-aP-Ejl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Ea-ke-OEL"/>
+                            <constraint firstItem="CcK-PL-SjJ" firstAttribute="top" secondItem="krU-ZU-G4V" secondAttribute="bottom" constant="8" id="8sU-xR-PI0"/>
                             <constraint firstItem="ukI-GJ-MgP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="D7L-b5-yJX"/>
+                            <constraint firstItem="CcK-PL-SjJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IzV-kQ-4dS"/>
+                            <constraint firstItem="FWu-An-kIM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K2i-jf-AFd"/>
                             <constraint firstItem="cEG-2j-3eF" firstAttribute="top" secondItem="ukI-GJ-MgP" secondAttribute="bottom" constant="8" id="LJg-RO-dGM"/>
                             <constraint firstItem="cEG-2j-3eF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QaJ-eQ-GS3"/>
+                            <constraint firstItem="3A6-de-DfO" firstAttribute="top" secondItem="FWu-An-kIM" secondAttribute="bottom" constant="8" symbolic="YES" id="R5Y-bO-sjy"/>
+                            <constraint firstItem="3A6-de-DfO" firstAttribute="leading" secondItem="FWu-An-kIM" secondAttribute="leading" id="RD5-ny-70B"/>
                             <constraint firstItem="krU-ZU-G4V" firstAttribute="top" secondItem="h29-aP-Ejl" secondAttribute="bottom" constant="8" id="RMt-Ix-xrd"/>
+                            <constraint firstItem="vMN-Xl-HMU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SNX-kp-xce"/>
                             <constraint firstItem="h29-aP-Ejl" firstAttribute="top" secondItem="cEG-2j-3eF" secondAttribute="bottom" constant="8" id="bEZ-OB-vL9"/>
+                            <constraint firstItem="FWu-An-kIM" firstAttribute="top" secondItem="vMN-Xl-HMU" secondAttribute="bottom" constant="8" id="iOA-6B-KdS"/>
                             <constraint firstItem="ukI-GJ-MgP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-6" id="jUW-dO-TBF"/>
+                            <constraint firstItem="vMN-Xl-HMU" firstAttribute="top" secondItem="CcK-PL-SjJ" secondAttribute="bottom" constant="8" id="kkH-Rj-o7n"/>
+                            <constraint firstItem="3A6-de-DfO" firstAttribute="centerX" secondItem="vMN-Xl-HMU" secondAttribute="centerX" id="kr1-Li-Ea2"/>
                             <constraint firstItem="krU-ZU-G4V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lgc-E6-aIz"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="UltimoPorcento" destination="vMN-Xl-HMU" id="WHT-NZ-GTL"/>
                         <outlet property="batteryStatus" destination="cEG-2j-3eF" id="C5c-7g-FVh"/>
                         <outlet property="tempoAteCarga" destination="krU-ZU-G4V" id="3eJ-tH-rk7"/>
+                        <outlet property="tempoMedio" destination="3A6-de-DfO" id="FLu-fs-hj4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
